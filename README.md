@@ -31,6 +31,8 @@ yarn add -D @storybook/builder-webpack5 @storybook/manager-webpack5 postcss-load
 const path = require("path");
 
 module.exports = {
+  // ...
+  
   webpackFinal: (config) => {
     config.module.rules.push({
       test: /\.css$/,
